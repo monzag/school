@@ -20,13 +20,13 @@ Parameters:
 * `last_name`
 * `grades`
 
-##### get_full_name()
+##### `get_full_name()`
 Return full name {first_name} {last_name}
 
-##### get_average_grade() 
+##### `get_average_grade()` 
 Return average of grades
 
-##### __eq__()
+##### `__eq__()`
 Compare equal of two objects.
 
 ### Teacher
@@ -46,10 +46,10 @@ Parameters:
 * `last_name`
 * `subjects`
 
-##### get_full_name()
+##### `get_full_name()`
 Return full name {first_name} {last_name}
 
-##### __eq__()
+##### `__eq__()`
 Compare equal of two objects.
 
 ### Class
@@ -70,16 +70,16 @@ Parameters:
 * `students`
 * `teachers`
 
-##### get_best_student()
+##### `get_best_student()`
 Return student with highest average grade.
 
-##### get_average_grade() 
+##### `get_average_grade()` 
 Get average grade of all students
 
-##### get_class_subjects() 
+##### `get_class_subjects()`
 Return a list of subjects that are being taught in this class
 
-##### sort_students(attr)
+##### `sort_students(attr)`
 Sorts students alphabetically or by average grade
 
 ### School
@@ -96,8 +96,8 @@ Methods:
 Parameters:
 * `classes`
 
-##### get_best_class() 
+##### `get_best_class()`
 Return class with highest average grade
 
-##### get_all_teachers() 
+##### `get_all_teachers()` 
 Returns all teachers from this school
